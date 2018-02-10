@@ -44,7 +44,7 @@ rodgers reminders is a paid for by subscription reminders application with auto-
         - [storage](#storage)
     - [Designs](#designs)
         - [Design questions](#design-questions)
-        - [Design responces](#design-responces)
+        - [Design responses](#design-responses)
             - [Kerri Swindells (Operations manager at small charity) 01/01/2018](#kerri-swindells-operations-manager-at-small-charity-01012018)
             - [Ryan Binns (Head of IT and Development at a large company) 06/01/2018](#ryan-binns-head-of-it-and-development-at-a-large-company-06012018)
             - [Carroal Campbell (Retirered) 01/01/2018](#carroal-campbell-retirered-01012018)
@@ -226,8 +226,8 @@ Overall:
 
 9. Would you use this application?
 
-### Design responces
-The following responces where done in person a a number of differing dates. I chose to ask the questions in person as I am able to better gage the responce of the respondie though body language and time taken to respond. The feedback from these responces will be used to create a 2nd iteration of the prefered design.
+### Design responses
+The following responses were done in person a number of differing dates. I chose to ask the questions in person as I am able to better gauge the response of the response through body language and time took to respond. The feedback from these responses will be used to create a 2nd iteration of the prefered design.
 
 #### Kerri Swindells (Operations manager at small charity) 01/01/2018
 
@@ -258,7 +258,7 @@ She did not like alternative design describing it as old and ugly.
 5. The dates between I want to complete the task, Its name, an estimated time and tags. I assume the tags are used to allocate tasks to time slots but how?
 6. I really do like Material Design, I wished more applications using it.
 7. It follows the material design guidelines so yes, The design language is very thought through and makes applications very intuitive to use.
-8. No, i definitely prefer design 1. I am not a fan of bootstrap.
+8. No, I definitely prefer design 1. I am not a fan of bootstrap.
 9. Yes, I use Jira at work but would love an application like it for personal use.
 
 Ryan liked the use of material design and specifically stated he prefered applications that use it. He also said it was his design language of choice when he creates applications. 
@@ -351,11 +351,11 @@ Whereas unit tests test each individual part of the application individually. In
 
 Integration tests of the application will be conducted around to the following test plan:
 
-| Test                      | Expected result                        |
-|---------------------------|----------------------------------------|
-| Clicking the FAB          | Takes the user to the create task page |
-| Click the hamburugre icon | Opens the hamburugre menu              |
-| Adding a task             | The task is down on the task list page |
+| Test                     | Expected result                        |
+|--------------------------|----------------------------------------|
+| Clicking the FAB         | Takes the user to the create task page |
+| Click the hamburger icon | Opens the hamburger menu               |
+| Adding a task            | The task is down on the task list page |
 
 //todo
 
@@ -371,9 +371,9 @@ Once the projects initial budget has been used up the project should be complete
 
 # Review
 
-Inorder to get a 2nd opinon on the documentation produced I have sent it to Ryan Binns the head of IT and Develepment at the large company Help Your Claim LTD asking for feedback. He provided the following feedback.
+In order to get a 2nd opinion on the documentation produced I have sent it to Ryan Binns the head of IT and Development at the large company Help Your Claim LTD asking for feedback. He provided the following feedback.
 
 ## Feedback
 
-Overall I feel the plan you have provuded is very comprahensive. The inclusion of the policies is esspcaly usefull as it can be hard for staff members to know how they should behave in the public eye when performing on behalf of the rognisation. The openness is much appichiated and a breaf of freshair in the current operational climate. You have covered the risks to the project very broadly however in enough detail that the small team will beable to enact upon the risks apropiatly, more detail may be requiered if the organisation was larger. 
-You have clearly defined the requierments of the application. However I feel you should explain your diagrams relating to the buissness processes. The tests plans for the application are addiquate and your are right to say that they cant fully be completed till the languages and software to be used for the project are finalised. This is esspcial the case with adgile deveopment, you cant pridict what is around the next corner. You mateance plan is quite clever. I like how the application development can sit dormant till there are engough funds are avalible. 
+Overall I feel the plan you have provided is very comprehensive. The inclusion of the policies is especially useful as it can be hard for staff members to know how they should behave in the public eye when performing on behalf of the organisation. The openness is much appreciated and a breath of fresh air in the current operational climate. You have covered the risks to the project very broadly however in enough detail that the small team will be able to enact on the risks appropriately, more detail may be required if the organisation was larger. 
+You have clearly defined the requirements of the application. However, I feel you should explain your diagrams relating to the business processes. The tests plans for the application are adequate and you are right to say that they cant fully to be completed till the languages and software to be used for the project are finalised. This is especially the case with agile development, you cant predict what is around the next corner. Your maintenance plan is quite clever. I like how the application development can sit dormant till there are enough funds are available. 
