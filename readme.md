@@ -48,6 +48,7 @@ rodgers reminders is a paid for by subscription reminders application with auto-
             - [Kerri Swindells (Operations manager at small charity) 01/01/2018](#kerri-swindells-operations-manager-at-small-charity-01012018)
             - [Ryan Binns (Head of IT and Development at a large company) 06/01/2018](#ryan-binns-head-of-it-and-development-at-a-large-company-06012018)
             - [Carroal Campbell (Retirered) 01/01/2018](#carroal-campbell-retirered-01012018)
+        - [Design improvments](#design-improvments)
     - [Applications requirements](#applications-requirements)
     - [Entertys and relationships](#entertys-and-relationships)
         - [Users](#users)
@@ -62,6 +63,7 @@ rodgers reminders is a paid for by subscription reminders application with auto-
     - [Maintenance](#maintenance)
 - [Review](#review)
     - [Feedback](#feedback)
+    - [Responce](#responce)
 
 <!-- /TOC -->
 
@@ -141,8 +143,6 @@ If a staff member does not perform well then they can be removed from the team w
 Because the application is being developed without a contract or direct client, there is a risk that there will be none or not enough users pay to use the product to fund the development.
 ##### The fix
 Before development starts on the product market research should be conducted and potential users interviewed to see if they wish to buy the proposed product.
-
-// TODO contrainstsa provisions and mangment and user involement
 
 ## Project boundaries
 
@@ -282,6 +282,12 @@ He would use the application for personal use as it functions much like Jira, th
 
 Carroll does not use technology much in her daily life so she is not the target audience for the application. She was, however, unable to figure out how to use the application, other than knowing that pressing the FAB would create a new task. She said the simplified list layout of the alternative design was more simple and understandable, but she would still prefer to use her paper diary.
 
+### Design improvments
+
+From the responces I have improved the 1st Material Design design by adding a headers to the task and time slots lists and a description of the uses of tags when being added to a task.
+
+![Designs](RR-designs2.png)
+
 ## Applications requirements
 
 As the website is being developed as a progressive web app, it will support many different devices running a variety of browsers. Progressive web apps adapt to the platform they are running on and the features they have available. For example, an application will provide push notification if they are available in the browser it is running on. If not the application will have this feature disabled.
@@ -324,6 +330,8 @@ Below is a diagram that defines the flow of how the internal processes within Ro
 
 ![flow](RR-flow-diagram.png)
 
+The flow of the application can be devided into 3 main parts.
+The first of these is the processe to create/update a task. Then there is also the process to create/update a timeslot. Both of these procedures then call a 3rd process. This processes recauclates the allocation of tasks to timeslots based on the changes made.
 
 ## Testing
 
@@ -377,3 +385,7 @@ In order to get a 2nd opinion on the documentation produced I have sent it to Ry
 
 Overall I feel the plan you have provided is very comprehensive. The inclusion of the policies is especially useful as it can be hard for staff members to know how they should behave in the public eye when performing on behalf of the organisation. The openness is much appreciated and a breath of fresh air in the current operational climate. You have covered the risks to the project very broadly however in enough detail that the small team will be able to enact on the risks appropriately, more detail may be required if the organisation was larger. 
 You have clearly defined the requirements of the application. However, I feel you should explain your diagrams relating to the business processes. The tests plans for the application are adequate and you are right to say that they cant fully to be completed till the languages and software to be used for the project are finalised. This is especially the case with agile development, you cant predict what is around the next corner. Your maintenance plan is quite clever. I like how the application development can sit dormant till there are enough funds are available. 
+
+## Responce
+
+In responce to this feedback I have added more detail to the diagrams realting to the organisation. See process expliation.
